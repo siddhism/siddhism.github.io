@@ -13,7 +13,7 @@ Its two weeks since the GSoC has started. I am working on the port of lang activ
 <meta property="og:site_name" content="Siddhesh suthar">
 <meta property="og:description" content="Hello everyone! 
 Its two weeks since the GSoC has started. I am working on the port of lang activities. It includes the basic details activity, three quiz mini games related to the words we just learn">
-<meta property="og:updated_time" content="2015-06-09T16:39:14.000Z">
+<meta property="og:updated_time" content="2015-06-09T16:48:30.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Getting the momentum">
 <meta name="twitter:description" content="Hello everyone! 
@@ -86,9 +86,9 @@ Its two weeks since the GSoC has started. I am working on the port of lang activ
     <div class="article-entry" itemprop="articleBody">
       
         <p>Hello everyone! </p>
-<p>Its two weeks since the GSoC has started. I am working on the port of lang activities. It includes the basic details activity, three quiz mini games related to the words we just learnt in the previous level and then a spellIt activity based on the same dataset of the current level. </p>
+<p>Its two weeks since the GSoC has started. I am working on the port of lang activities. It includes the basic details activity, three quiz mini games related to the words we just learnt in the previous level and then a spell It activity based on the same dataset of the current level. </p>
 <h1 id="work">work</h1><p>I have pushed the code for quiz mini games integration. That is my second activity. It was planned to be completed in 2 weeks.I am almost on time with my proposal timeline. Have to make some improvements in it as JohnnyJ has suggested. It is in review process.</p>
-<h1 id="learned">learned</h1><p>I have learned a lot during this period. special thanks to my mentos bruno coudoin and johnny jazeix for their guidance and availability for asking doubts. I learned the work flow of model-view-data. Used delegates with two elements. initially i was thinking of having two list views but JohnnyJ suggested that we can do it with more than one items in the delegate.  </p>
+<h1 id="learned">learned</h1><p>I have learned a lot during this period. Special thanks to my mentors bruno coudoin and johnny jazeix for their guidance and availability for asking doubts. I learned the work flow of model-view-data. For answer buttons, i used delegates with two elements. Initially I was thinking of having two list views for images and words seperately but JohnnyJ suggested that we can do it with  single list view with more than one items in the delegate.  </p>
 <h1 id="some_code">some code</h1><p>the delegate for quiz answer options<br><figure class="highlight"><figcaption><span>[quiz answer list view] []</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">delegate: Item&#123;&#10;    id: wordListViewDelegate&#10;    width: wordListView.width&#10;    height: wordListView.buttonHeight&#10;&#10;    Image&#123;&#10;        id: wordImageQuiz&#10;        width: wordListView.width/3&#10;        height: wordListView.buttonHeight * 0.7&#10;        source: image&#10;        z: 7&#10;        anchors.left: parent.left&#10;        anchors.leftMargin: 10* ApplicationInfo.ratio&#10;        visible:  (Activity.miniGame==1) ? true : false  // to hide images after first mini game&#10;    &#125;&#10;&#10;    AnswerButton &#123;id: wordRectangle...&#125;&#10;&#125;</span><br></pre></td></tr></table></figure></p>
 <h1 id="screencast">screencast</h1><p>This is screencast of my lang activity after two weeks of coding period. I have done the basic details activity and quiz integration with 3 mini games.<br>I. you have to answer by watching images+text<br>II. you have to answer only with text options<br>III. you can only hear the word and answer only with text options.</p>
 <div class="video-container"><iframe src="//player.vimeo.com/video/130224229" frameborder="0" allowfullscreen></iframe></div>
@@ -97,7 +97,7 @@ Its two weeks since the GSoC has started. I am working on the port of lang activ
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://siddhism.github.io/2015/06/09/Getting-the-momentum/" data-id="ciapcvxrh0000zasg6z5gzga0" class="article-share-link">Share</a>
+      <a data-url="http://siddhism.github.io/2015/06/09/Getting-the-momentum/" data-id="ciapkemq30000lbsgwkzymt4w" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/GCompris/">GCompris</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/GSoC/">GSoC</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/KDE/">KDE</a></li></ul>
